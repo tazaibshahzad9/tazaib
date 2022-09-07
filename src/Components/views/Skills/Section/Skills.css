@@ -1,0 +1,89 @@
+.skills{
+    font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.skil-list-area{
+    margin-top: -4rem !important;
+}
+.skills_DIV{
+margin: auto 1.2rem !important;
+}
+.skills_DIV:hover{
+
+    color: white !important;
+    background-color: #5f30ff;
+}
+.skills_DIV:hover:before,
+.skills_DIV:hover  * {
+
+    color: white !important;
+}
+
+/* .skills_DIV:hover  .primary_btn2 {
+
+    color: white !important;
+}
+
+.skills_DIV:hover  .text {
+
+    color: white !important;
+} */
+
+.rec-carousel button
+  {
+    border-radius: 50%;
+    height: 40px !important;
+    width: 42px !important;
+    color: black;
+    font-size: 1.5rem;
+    margin: auto;
+    border: 2px solid gray;
+}
+.skills_box{
+    text-align: center;
+    
+}
+
+
+.skills_box h4{
+    font-size: 20px;
+    color: #05364d;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.primary_btn2{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #05364d;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+
+}
+.primary_btn2:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 50px;
+    height: 2px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+
+}

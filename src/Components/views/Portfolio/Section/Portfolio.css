@@ -1,0 +1,33 @@
+.perject-info-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.perject-info-div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #1345e6;
+}
+.perject-info-div strong{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 21px;
+    padding-left: 0.6rem;
+}
+.perject-info-div text{
+    font-family: 'Playfair Display', serif;
+    font-size: 12.5px;
+    letter-spacing: 1px;
+    color: #666666;
+    padding-left: 0.6rem;
+}
+
+.perject-info-div text:last-child{
+    position: absolute;
+    right: 0.6rem;
+    bottom: 0;
+}
+
+
+.perject-info-div text:last-child a{
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #666666;
+    padding-left: 0.6rem;
+}
