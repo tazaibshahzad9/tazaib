@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tazaib/static/css/main.04464437.css",
-    "main.js": "/tazaib/static/js/main.720a281c.js",
+    "main.css": "/tazaib/static/css/main.7a1c9c10.css",
+    "main.js": "/tazaib/static/js/main.16572c26.js",
     "static/js/787.7d96b72c.chunk.js": "/tazaib/static/js/787.7d96b72c.chunk.js",
     "static/media/home-banner.png": "/tazaib/static/media/home-banner.984bfd88299dde204b97.png",
     "static/media/about_us.png": "/tazaib/static/media/about_us.2cf83dc13a038234cd12.png",
@@ -13,12 +13,12 @@
     "static/media/revicons.ttf": "/tazaib/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/tazaib/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/tazaib/index.html",
-    "main.04464437.css.map": "/tazaib/static/css/main.04464437.css.map",
-    "main.720a281c.js.map": "/tazaib/static/js/main.720a281c.js.map",
+    "main.7a1c9c10.css.map": "/tazaib/static/css/main.7a1c9c10.css.map",
+    "main.16572c26.js.map": "/tazaib/static/js/main.16572c26.js.map",
     "787.7d96b72c.chunk.js.map": "/tazaib/static/js/787.7d96b72c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04464437.css",
-    "static/js/main.720a281c.js"
+    "static/css/main.7a1c9c10.css",
+    "static/js/main.16572c26.js"
   ]
 }
