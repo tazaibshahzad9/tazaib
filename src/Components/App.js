@@ -10,12 +10,12 @@ import Footer from './views/Footer/Footer';
 function App() {
   return (
     <>
-      {/* <Navbar/> */}
+      {/* <Navbar /> */}
       <Home />
-      {/* <About/> */}
-      {/* <Skills/> */}
-      {/* <Portfolio/> */}
-      <Footer />
+      <About />
+      {/* <Skills /> */}
+      {/* <Portfolio /> */}
+      {/* <Footer /> */}
 
     </>
   );

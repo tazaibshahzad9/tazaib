@@ -13,8 +13,8 @@ function About() {
                 <div className="row">
                     <About_Left_Section />
                     <About_Right_Section data=''>
-                        <Banner title="about me" msg="" heading="React Frontend Developer" work="" details="My name is Muhammad Tazaib Shahzad. I am FrontEnd React Developer.
-                        My primary focus is development of UI components and implementing them following well-known ReactJS workflowsFunctional Components,LifeCyles,Hooks,Redux." socialIcon={socialIcon}
+                        <Banner title="about me" msg="" heading="Personal Trainer" work="" details="My name is Tazaib Shahzad. I am Physical Trainer.
+                        Great Trainers are great listeners, analysts and motivators who put their clients results first and foremost. Great Trainers recognise and adapt to the needs of the client and are flexible and creative enough to deal with any goal, barrier, aspiration and dream. We have delivered more than one million hours of personal training as a company. We know how to get results from everybody." socialIcon={socialIcon}
                             Fsize="40px" Mtop='1rem'
                         >
                             <a href='' style={{ color: 'white' }}>See My Work</a>

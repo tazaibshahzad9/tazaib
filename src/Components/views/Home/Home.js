@@ -10,17 +10,17 @@ function Home() {
     const [socialIcon, setSocialIcon] = useState(true)
     const [history, setHistory] = useState([
         {
-            React_Project: ' React Project',
-            Project_Num: 3
+            React_Project: 'Deliver your ideal physique',
+            Project_Num: '1'
 
         },
         {
-            React_Project: 'Mern Project',
-            Project_Num: 2
+            React_Project: 'Establish a healthy lifestyle',
+            Project_Num: '2'
         },
         {
-            React_Project: 'Project Pending',
-            Project_Num: 1
+            React_Project: 'Fuel Your Ambition',
+            Project_Num: '3'
 
         }]
     )
@@ -34,7 +34,7 @@ function Home() {
                                 <div>
                                     <Banner title="" msg="hey there!!" heading="I Am Tazaib Shahzad" work="Physical Trainer" socialIcon={socialIcon} Fsize='50px' >
                                         <Link to="/portfolio" className="" style={{ color: 'white' }}>
-                                            Download CV
+                                            Start Here
                                         </Link>
                                     </Banner>
                                 </div>
@@ -51,6 +51,7 @@ function Home() {
                                 }
 
                             </div>
+                            <div className='objective-heading'>These three core objectives for my clients that are present in everything I do:</div>
                         </div>
                         <div className="col-md-5 d-none d-md-block" style={{ padding: '4rem' }} >
                             <Image src={Img} fluid />

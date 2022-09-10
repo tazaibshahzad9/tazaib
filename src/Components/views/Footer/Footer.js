@@ -27,7 +27,8 @@ function Footer() {
         <div id='Footer_area' className='container-fluid Footer_area mt-5 mb-0' >
             <div className="row d-flex justify-content-center flex-column m-auto">
                 <div className="col-12 col-md-4 d-flex justify-content-center flex-column m-auto text-center align-items-center">
-                    <Image src={Img} style={{ height: 'fit-content', width: 'fit-content' }} />
+                    {/* <Image src={Img} style={{ height: 'fit-content', width: 'fit-content' }} /> */}
+                    <div className='logo-style'>LOGO</div>
                     <div className="d-flex justify-content-center Footer-links py-5">
                         <a href="#home" className='px-3'>Home</a>
                         <a href="#contact" className='px-3'>Contact</a>
