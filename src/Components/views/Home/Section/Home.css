@@ -11,6 +11,12 @@
     min-height: 890px;
 }
 
+.banner {
+    /* background-color: red; */
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
 .primary_btn {
     display: inline-block;
     background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
@@ -116,6 +122,30 @@
         margin-inline: 0.5%;
         color: #797979;
         background: #f8faff;
+    }
+
+    .home_banner_area {
+        width: 100%;
+        background: none;
+        /* min-height: 890px; */
+    }
+
+    .objective-heading {
+        padding-inline: 20px;
+        font-family: 'Noto Serif', serif;
+        color: #05364d;
+        opacity: 0.9;
+        margin-top: 0px;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 27px;
+        margin-bottom: 0px;
+    }
+
+    .banner {
+        /* background-color: red; */
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
 }

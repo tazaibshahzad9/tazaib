@@ -27,3 +27,17 @@ span {
     -webkit-filter: blur(4px);
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .Sub_heading {
+        font-family: 'Inconsolata', monospace;
+        font-size: 15.5px;
+        font-weight: 200;
+        text-transform: uppercase;
+        margin-bottom: -2px;
+        letter-spacing: 2.3px;
+        color: #797979;
+        margin-top: 27px;
+    }
+
+}

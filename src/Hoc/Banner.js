@@ -16,7 +16,7 @@ function Banner({ children, title, msg, heading, work, socialIcon, details, Fsiz
     }
   }
   return (
-    <div className="banner d-flex flex-column  align-items-start" style={{ paddingRight: '2rem', paddingLeft: '2rem' }}>
+    <div className="banner d-flex flex-column  align-items-start">
       <p className='Sub_heading'>{title} <span></span></p>
       <TEXT Lspacing='2px' Lcase='uppercase' > {msg} </TEXT>
       <StyledHeading Fsize={Fsize}>{heading} </StyledHeading>

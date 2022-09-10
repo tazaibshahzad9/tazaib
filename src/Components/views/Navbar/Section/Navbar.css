@@ -5,40 +5,84 @@
     background: transparent;
 }
 
-.navbar{
+.navbar {
     /* width: 100%; */
     background-color: transparent;
     justify-content: space-between !important;
-    padding: 1.5rem 0rem  !important;
+    padding: 1.5rem 0rem !important;
 }
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
     color: #ed239f !important;
     font-weight: 560;
 
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: #05364d !important;
 }
+
 .navbar-dark .navbar-toggler {
     color: rgb(194, 26, 26) !important;
     border-color: #05364d !important;
     border-style: dotted !important;
 }
 
+
 .navbar-brand {
     margin-right: 7rem !important;
-    
+
 }
-@media (min-width: 992px){
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .8rem !important;
-    padding-left: .8rem !important;
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .8rem !important;
+        padding-left: .8rem !important;
+    }
 }
-}
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-  }
-  
-  .navbar-toggler {
-    border-color: rgb(255,102,203);
-  } 
+}
+
+.navbar-toggler {
+    border-color: rgb(255, 102, 203);
+}
+
+
+@media (max-width: 600px) {
+    .navbar-nav {
+        background: linear-gradient(to bottom, #1859E9 0%, #8F44C6 100%);
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: white !important;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: transparent;
+        justify-content: space-between !important;
+        padding: 0rem 0rem !important;
+    }
+
+    .navbar-brand {
+        margin-right: 0px !important;
+    }
+
+    /* .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    } */
+    .navbar-nav .nav-link {
+        padding-right: 0 !important;
+        padding-inline: 16px !important;
+        padding-block: 10px !important;
+    }
+}
